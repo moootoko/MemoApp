@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MemoApp",
+    "slug": "MemoApp",
+    "version": "1.0.0",
+    "privacy": "unlisted",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mtk_mocha.MemoApp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF",
+        "versionCode": 1,
+        "permissions": []
+      },
+      "package": "com.mtk_mocha.MemoApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
